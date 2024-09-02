@@ -171,8 +171,6 @@ DT.initialize = function()
             end
         })
 
-        DT:startJob(true);
-
         DT:rv("refresh4All", function(id)
             weedLocations[id].cules = true;
             DT:refreshWeed();
